@@ -1,0 +1,18 @@
+.cardsCon {
+	display: grid;
+	grid-template-columns: auto;
+	padding: 10px;
+	place-self: center;
+}
+
+@media (min-width: 1024px) { 
+	.cardsCon {
+			grid-template-columns: auto auto;
+	}
+}
+
+@media (min-width: 1280px) { 
+	.cardsCon {
+			grid-template-columns: auto auto auto;
+	}
+}
